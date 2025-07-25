@@ -503,7 +503,7 @@
             height: 40px;
             background: var(--primary);
             color: white;
-            border-radius: 50%;
+            border-radius: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -573,6 +573,7 @@
 
         /* Footer */
         footer {
+            width: 100%;
             background: var(--card);
             padding: 30px 0;
             text-align: center;
@@ -647,6 +648,14 @@
             .hero-text h1 {
                 font-size: 40px;
             }
+
+            .footer-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            margin-bottom: 20px;
+            }
             
             .hero-content, .about-content {
                 flex-direction: column;
@@ -700,6 +709,14 @@
             .section-title h2 {
                 font-size: 30px;
             }
+
+            .footer-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            margin-bottom: 20px;
+            }
         }
 
         @media (max-width: 576px) {
@@ -719,5 +736,13 @@
             
             .projects-container {
                 grid-template-columns: 1fr;
+            }
+
+            .footer-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style: none;
+            margin-bottom: 20px;
             }
         }
